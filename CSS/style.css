@@ -1,0 +1,44 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:rgb(118, 214, 236);
+}
+.container{
+  display: flex;
+  background-color: rgb(229, 235, 221);
+  border: 1px solid silver;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+ 
+  
+}
+.c1{
+  height: 100px;
+  width: 100px;
+  background-color: lightblue;
+  border: 2px solid black;
+  
+}
+.c2{
+ height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  border: 2px solid black;
+  
+}
+
+.c3{
+ height: 100px;
+  width: 100px;
+  background-color: lightcoral;
+  border: 2px solid black;
+
+}
+
+.c4{
+ height: 100px;
+  width: 100px;
+  background-color: lightgoldenrodyellow;
+  border: 2px solid black;
+
+}

@@ -1,0 +1,28 @@
+/* body{
+  background-color: slateblue;
+} */
+ body{
+  background-color: lightblue;
+
+ }
+ h1{
+   
+ }
+ #home{
+  background-color: lightgreen;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+ }
+ .why{
+  background-color: rgb(85, 204, 227);
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+
+ }
+ 
