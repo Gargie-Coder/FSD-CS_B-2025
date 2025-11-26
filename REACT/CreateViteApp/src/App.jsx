@@ -1,25 +1,32 @@
-import React from 'react';
-// import Gallery from '../components/Gallery';
+import React, { useState } from 'react';
 import './App.css';
-// import StateHandling from '../components/statehandling';
-import Imagemanipulation from '../components/imagemanipulation';
-import { BrowserRouter, Routes,Route } from 'react-router-dom';
-import Login from './Pages/Login';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Registration from "./pages/Registration";
+import MainLayout from "./pages/MainLayout";
+import Login from "./Pages/Login";
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
+  const [data, setData] = useState();
+
   return (
-    <div className="container">
-      {/* <h2>Welcome to React with Vite</h2>
-      <Imagemanipulation /> */}
-      {/* <StateHandling /> */}
     <BrowserRouter>
-    <Routes>
-      <Route path='/login' element={<Login />}></Route>
-    </Routes>
-    
+      <Routes>
+
+        <Route path="/login" element={<Login logData={data} />} />
+
+        <Route
+          path="/register"
+          element={<Registration regData={setData} />}
+        />
+
+        <Route path="/dashboard" element={<Dashboard />} />
+
+        <Route path="/" element={<MainLayout />} />
+
+      </Routes>
     </BrowserRouter>
-    </div>
   );
 }
 
