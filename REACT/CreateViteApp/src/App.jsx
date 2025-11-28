@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Registration from "./pages/Registration";
-import MainLayout from "./pages/MainLayout";
+import Registration from "./Pages/Registration";
+import MainLayout from "./Pages/MainLayout";
 import Login from "./Pages/Login";
 import Dashboard from "./Pages/Dashboard";
 
